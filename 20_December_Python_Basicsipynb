@@ -1,0 +1,479 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "754df835-c0f7-4dff-b4ec-8e5f45f1152c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Question 1 : swaping number"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "9e84d69c-7263-4702-953e-1417290d7535",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#let x and y be two variables which contain values \n",
+    "x, y = 70, 65"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "f7fbe694-24dd-4be6-997f-349dfe3e231b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "70"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "86cedd68-7bfc-4357-b9df-d41c5617b2b8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "65"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "d303a7cd-ddc0-495a-9307-58b5cd797298",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# in this case x = 70 + 65 = 135\n",
+    "x = x + y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "191ed674-bb3a-4828-b546-0f1a68cb1e8f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# now y = 135 - 65 = 70\n",
+    "# now the value of y has been changed\n",
+    "y = x - y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "58239849-e53e-4c1c-a821-ae82b1338013",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# now our x = 135 - 70 = 65\n",
+    "# and out x and y has been swaped successfully\n",
+    "x = x - y "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "0ae698d7-2d21-4e03-989d-697c437ee0c1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "70"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "0bc2b2c1-7eaa-4eb6-a07c-ab0a93943d6f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "65"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "bb9c514b-679d-44ae-b6b3-ce9725c7f57e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Question 2: "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "d57d618a-325a-4026-83b0-69ac1bf8700a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 2\n",
+      " 4\n"
+     ]
+    }
+   ],
+   "source": [
+    "#let l and w will be the length and width of the rectangle\n",
+    "l = int(input())\n",
+    "w = int(input())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "33eb982c-7218-4f28-9384-f8747ac1a3a4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# let area will be the area of the rectangle\n",
+    "area = l * w"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "b8ddc3bf-ce6e-419d-b60c-237f6bf4331d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "area"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "b14e62aa-d629-4d75-8e2c-e64bcdb65734",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Question 3:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "117a792d-ea4a-403e-8e31-afbd877e20cd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 35\n"
+     ]
+    }
+   ],
+   "source": [
+    "# let celcius be the celcius\n",
+    "celcius = int(input())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "fe2f0cb5-4e87-4e04-bc34-ea14624ff7d9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# this formula will convert celcius to fahrenheit\n",
+    "fahrenheit = (celcius * (9/5)) + 32"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "da9595ca-7d04-4afa-8c42-ddda3019c550",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "95.0"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "fahrenheit"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "5c6cd22f-eb10-4df4-97eb-48a50378cf0f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# String based question\n",
+    "# Question 1:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "55a45ab5-55a0-47ac-8ae7-ad72dc954506",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " adarsh\n"
+     ]
+    }
+   ],
+   "source": [
+    "# let str will be the string \n",
+    "str = input()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "6957659d-1a77-4d69-8546-53c9fa9f91a3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "6"
+      ]
+     },
+     "execution_count": 28,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# this predefined funtion will help to calculate the length of a string\n",
+    "len(str)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "923b2d3d-dd50-4f40-b543-5490ec05b6c0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Question 3:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "939488b9-ebd8-4047-b9e8-882f3a7a75be",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " adarsh\n"
+     ]
+    }
+   ],
+   "source": [
+    "# getting input in s\n",
+    "s = input()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "ca99f530-bfe2-40cb-ad19-65dfdf013836",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hsrada\n"
+     ]
+    }
+   ],
+   "source": [
+    "# this will print the string in reverse order\n",
+    "print(s[::-1])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4b754735-a6a2-4b5b-9b9c-39b5ff941898",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Question 5 : \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "5da7fa7e-87fb-4d15-a9f0-f139ec6f8f3b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " Adarsh T ha ku r\n"
+     ]
+    }
+   ],
+   "source": [
+    "#let str1 will be taking input from the user\n",
+    "str1 = input()\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "56ca72f8-1f37-48c6-9ca8-c4a979383331",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Adarsh T ha ku r'"
+      ]
+     },
+     "execution_count": 34,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "str1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "e7a8ae78-a5c6-4b25-a12f-9b00e1ecd53b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# modified_str will be remove blank spaces \n",
+    "modified_str = str1.replace(\" \", \"\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "6ca5b223-0c82-4a32-8b93-e7d51e0d5d66",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'AdarshThakur'"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "modified_str"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9b24d136-724e-4e9a-a09a-7058d924e1e5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
